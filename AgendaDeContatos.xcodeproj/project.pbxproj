@@ -16,6 +16,7 @@
 		304F0D5123F36D750064833C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 304F0D5023F36D750064833C /* main.m */; };
 		304F0D5B23F36D760064833C /* AgendaDeContatosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 304F0D5A23F36D760064833C /* AgendaDeContatosTests.m */; };
 		304F0D6623F36D760064833C /* AgendaDeContatosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 304F0D6523F36D760064833C /* AgendaDeContatosUITests.m */; };
+		30F0C48A23F4714E007E0009 /* Contato.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F0C48923F4714E007E0009 /* Contato.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		304F0D6123F36D760064833C /* AgendaDeContatosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgendaDeContatosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		304F0D6523F36D760064833C /* AgendaDeContatosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AgendaDeContatosUITests.m; sourceTree = "<group>"; };
 		304F0D6723F36D760064833C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30F0C48823F4714E007E0009 /* Contato.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Contato.h; sourceTree = "<group>"; };
+		30F0C48923F4714E007E0009 /* Contato.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Contato.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				304F0D4C23F36D750064833C /* LaunchScreen.storyboard */,
 				304F0D4F23F36D750064833C /* Info.plist */,
 				304F0D5023F36D750064833C /* main.m */,
+				30F0C48823F4714E007E0009 /* Contato.h */,
+				30F0C48923F4714E007E0009 /* Contato.m */,
 			);
 			path = AgendaDeContatos;
 			sourceTree = "<group>";
@@ -267,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30F0C48A23F4714E007E0009 /* Contato.m in Sources */,
 				304F0D4623F36D740064833C /* ViewController.m in Sources */,
 				304F0D4023F36D740064833C /* AppDelegate.m in Sources */,
 				304F0D5123F36D750064833C /* main.m in Sources */,
@@ -447,7 +453,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.alura.AgendaDeContatos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -463,7 +469,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.alura.AgendaDeContatos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
